@@ -1,0 +1,451 @@
+
+h1 {
+ color: #48186C;
+ 
+}
+
+.nav {
+    height: 70px;
+    border: 1px solid black; 
+ 
+}
+.logo {
+    height: 70px;
+}
+
+.icon {
+    display: block;
+    float: right;
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    top: 15px;
+    padding: 15px 30px 20px 30px;
+    right: 20px;
+    border: none;
+    background-color:white;
+}
+li {
+    display: none;
+}
+a {
+    text-decoration: none;
+    color: black
+}
+
+p {
+    padding: 15px 10px;
+    margin: 0px;
+    text-align: left;
+}
+.dropdown {
+    width: 120px;
+    border: 1px solid black;
+    background-color: white;
+    position: absolute;
+    top: 79px;
+    right: 8px;
+    height: 300px;
+    text-align: center;
+    display: none;
+    font-family: sans-serif;
+    z-index: 200;
+}
+
+.drop:hover .dropdown {
+    display: block;
+}
+
+.welcome {
+    position: absolute;
+    top: 360px;
+    left: 18px;
+    background-color: white;
+    width: 81.7%;
+    height: 27%;
+    margin: 0 auto;
+    font-family: sans-serif;
+    padding: 15px;
+}
+
+#welcome {
+    font-family: "Roboto Slab";
+    margin-top: -10px;
+    font-size: 40px;
+    margin-bottom: 0px;
+    color: #48186C;
+}
+
+.welcometext {
+    padding-bottom: 20px;
+    color: black;
+    font-weight: lighter;
+    font-size: 15px;
+}
+
+.statement {
+    background-color: rgb(180, 180, 180);
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    top: 570px;
+    padding: 5px 10px;
+    left: -20px;
+    right: 0;
+    margin: 0 auto;
+
+}
+#statement {
+    margin: 0 auto;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto slab";
+    text-align: center;
+}
+.homelogo {
+    position: absolute;
+    top: 5px;
+    width: 200px;
+    height: auto;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+
+.homepic {
+    width: 100%;
+}
+
+#slideshow { 
+    margin: 30px auto; 
+    position: relative; 
+    padding: 10px; 
+    text-align: center;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 10px; 
+    left: 10px; 
+    right: 10px; 
+    bottom: 10px; 
+}
+
+.icons {
+    position: absolute;
+    display: inline;
+    top: 740px;
+    left: 15px;
+}
+.socialicon {
+    width: 50px;
+    height: auto;
+}
+#linkedin {
+    width: 38px;
+    margin-bottom: 5px;
+}
+
+@media screen and (min-width: 410px){
+    .homecontainer {
+        position: absolute;
+        width: 100%;
+        top: 40px;
+    }
+}
+
+@media screen and (min-width: 470px){
+    
+    .homecontainer {
+        top: 70px;
+    }
+}
+
+@media screen and (min-width: 510px){
+    .homecontainer {
+        top: 100px;
+    }
+}
+@media screen and (min-width: 550px){
+    .homecontainer { 
+        top: 130px;
+    }
+    .statement {
+        top: 530px;
+    }
+    .icons {
+        top: 700px;
+    }
+    
+    }
+
+    @media screen and (min-width: 600px){
+        .homecontainer {
+            top: 170px;
+        }
+        
+        }
+
+
+@media screen and (min-width: 640px) {
+    .homecontainer {
+        top: 210px;
+    }
+}
+@media screen and (min-width: 700px){
+    .homecontainer {
+        top: 240px;
+    }
+}
+@media screen and (min-width: 740px) {
+
+    .containter {
+        width: 900px;
+        height: 900px;
+    }
+    .homepic {
+        width: 100%;
+        margin: 0 auto;
+    }
+    
+    .homecontainer {
+        top: 280px;
+    }
+
+    .homelogo {
+        position: absolute;
+        top: 5px;
+        width: 230px;
+        height: auto;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+    #statement  {
+        font-size: 25px;
+    }
+    .welcometext {
+        font-size: 18px;
+    }
+
+}
+@media screen and (min-width: 780px) {
+    .homecontainer {
+        top: 300px;
+    }
+}
+@media screen and (min-width: 800px){
+    .homecontainer {
+        top: 320px;
+    }
+}
+@media screen and (min-width: 850px){
+    .homecontainer {
+        top: 360px;
+    }
+}
+@media screen and (min-width: 900px){
+    .homecontainer {
+        top: 380px;
+    }
+}
+
+@media screen and (min-width: 950px) {
+.containter {
+    width: 950px;
+    height: 1000px;
+}
+.homepic {
+    width: 100%;
+    margin: 0 auto;
+}
+  .logo {
+    margin-left: 10px;
+}  
+
+.nav {
+    z-index: 99999;
+    background-color: rgba(255, 255, 255, 0.5);
+    position: relative;
+    border: none;
+    width: 100%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.icon {
+    display: none;
+}
+
+.dropdown {
+    display: none;
+}
+
+li {
+    display: block;
+    list-style-type: none;
+    font-family: sans-serif;
+    float: right;
+    padding: 20px;
+    margin-top: 8px;   
+}
+
+#slideshow > div { 
+    top: -100px;
+}
+
+.statement {
+    position: absolute;
+    top: 850px;
+    height: 230px;
+}
+#statement {
+    margin: 0 auto;
+    color: white;
+    font-size: 35px;
+    font-family: "Roboto slab";
+    text-align: center;
+}
+.homelogo {
+    position: absolute;
+    top: 10px;
+    width: 300px;
+
+}
+
+.welcome {
+    position: absolute;
+    top: 680px;
+}
+
+.welcometext {
+    color: black;
+    font-size: 18px;
+}
+
+.icons {
+    position: absolute;
+    top: 1100px;
+}
+.homecontainer {
+    width: 100%;
+    position: absolute;
+    top: 0px;
+}
+}
+
+@media screen and (min-width: 1000px){
+    .homecontainer {
+        top: 50px;
+    }
+}
+
+@media screen and (min-width: 1050px){
+    .homecontainer {
+        top: 70px;
+    }
+}
+
+@media screen and (min-width: 1100px){
+    .homecontainer {
+        top: 115px;
+    }
+    .welcometext {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width: 1150px){
+    .homecontainer {
+        top: 150px;
+    }
+}
+@media screen and (min-width: 1200px){
+    .homecontainer {
+        top: 175px;
+    }
+}
+
+
+@media screen and (min-width: 1250px){
+    .homecontainer {
+        top: 210px;
+    }
+}
+@media screen and (min-width: 1300px){
+    .homecontainer {
+        top: 250px;
+    }
+}
+@media screen and (min-width: 1350px){
+    .homecontainer {
+        top: 275px;
+    }
+}
+
+@media screen and (min-width: 1400px){
+    .homecontainer {
+        top: 300px;
+    }
+}
+@media screen and (min-width: 1425px){
+    .homecontainer {
+        top: 325px;
+    }
+}
+@media screen and (min-width: 1450px){
+    .homecontainer {
+        top: 350px;
+    }
+}
+@media screen and (min-width: 1500px){
+    .homecontainer {
+        top: 400px;
+    }
+}
+@media screen and (min-width: 1570px){
+    .homecontainer {
+        top: 430px;
+    }
+}
+
+
+@media screen and (min-width: 1600px){
+    .homecontainer {
+        top: 470px;
+    }
+}
+
+@media screen and (min-width: 1700px){
+    .homecontainer {
+        top: 540px;
+    }
+}
+/* ipad pro*/
+@media screen and (min-height:1350px) {
+    .welcome {
+        top: 670px;
+        width: 95%;
+    }
+    .statement {
+        bottom: 250px;
+    }
+    .icons {
+        bottom: 180px;
+    }
+    .nav {
+        width: 1040px;
+        margin: 0 auto;
+    }
+    .welcometext {
+        font-size: 25px;
+    }
+    h1{
+        font-size: 40px;
+    }
+}

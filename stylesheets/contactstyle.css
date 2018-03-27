@@ -1,0 +1,222 @@
+ .picture {
+     width: 100%;
+     margin: 0 auto;
+     margin-top: 10px;
+ }
+
+ .header {
+     font-family: "Roboto Slab";
+     text-align: center;
+ }
+ .form {
+     width: 250px;
+     height: 350px;
+     padding: 15px;
+     margin-top: 10px;  
+ }
+
+ h1 {
+    font-family: "Roboto Slab";
+    margin-bottom: 2px;
+}
+p {
+    font-family: sans-serif;
+}
+ .section{
+     display: block;
+     text-align: left;
+ }
+label {
+    display: block;
+    font-family: "Roboto Slab";
+    margin-top: 5px;
+}
+input {
+    border: 1px solid black;
+    padding: 20px;
+    width: 250px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    
+}
+textarea {
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: 10px;
+    width: 250px;
+}
+
+#submit {
+    border: none;
+    background-color: rgb(238, 238, 238);
+    font-size: 16px;
+    margin: 0 auto;
+    width: 290px;
+    padding: 20px;
+    margin-top: 10px; 
+}
+
+.icons {
+    position: absolute;
+    bottom: 10px;
+}
+select {
+    width: 290px;
+    padding: 10px;
+    border-radius: 0px;
+    border: 6px solid transparent;
+    background-color: #48186C;
+    color: white;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.footer {
+    width: 100%;
+    background-color: rgb(180, 180, 180);
+    position: absolute;
+    top: 1700px;
+    height: 150px;
+}
+
+@media screen and (min-width: 950px){
+    .nav {
+        width: 101%;
+        margin: 0 auto;
+        z-index: 5;
+    }
+
+    .img {
+        width: 100%;
+        position: absolute;
+        margin-top: -100px;
+    }
+    .logo {
+        margin-left: 0px;
+    }
+    .picture {
+        width: 100%;
+        z-index: 0;
+    }
+    .container {
+        position: absolute;
+        top: 400px;
+        left: 100px;
+        width: 350px;
+        
+    }
+    .form {
+        position: absolute;
+        left: 600px;
+        top: 400px;
+    }
+
+        
+        @media screen and (min-width: 1000px) {
+            .container {
+                top: 425px;
+            }
+            .form {
+                top: 425px;
+            }
+        }
+        
+        @media screen and (min-width: 1050px) {
+            .container {
+                top: 450px;
+            }
+            .form {
+                top: 450px;
+            }
+        }
+        
+        @media screen and (min-width: 1100px) {
+            .container {
+                top: 475px;
+            }
+            .form {
+                top: 475px;
+                left: 650px;
+            }
+        }
+        
+        @media screen and (min-width: 1150px){
+            .container {
+                top: 500px;
+            }
+            .form {
+                top: 500px;
+            }
+        }
+        @media screen and (min-width: 1200px){
+            .container {
+                top: 525px;
+            }
+            .form {
+                top: 525px;
+
+            }
+        }
+        
+        
+        @media screen and (min-width: 1250px){
+            .container {
+                top: 550px;
+            }
+            .form {
+                top: 550px;
+ 
+            }
+        }
+        
+        @media screen and (min-width: 1300px){
+            .container {
+                top: 575px;
+            }
+            .form{
+                top: 575px;
+
+            }
+
+        }
+        @media screen and (min-width: 1350px){
+            .container {
+                top: 600px;
+            }
+            .form {
+                top: 600px;
+ 
+            }
+        }
+        
+        @media screen and (min-width: 1400px){
+            .container {
+                top: 625px;
+            }
+            .form {
+                top: 625px;
+            }
+        }
+        @media screen and (min-width: 1450px){
+            .container {
+                top: 650px;
+            }
+            .form {
+                top: 650px;
+            }
+        }
+        @media screen and (min-width: 1500px) {
+            .container {
+                top: 675px;
+            }
+            .form {
+                top: 675px;
+            }
+        }
+        @media screen and (min-width: 1550px) {
+            .container {
+                top: 700px;
+            }
+            .form {
+                top: 700px;
+            }
+        }
