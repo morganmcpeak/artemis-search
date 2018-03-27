@@ -20,7 +20,7 @@ h1 {
     color: black;
     position: absolute;
     top: 15px;
-    padding: 15px 30px 20px 30px;
+    padding: 19px 30px 18px 30px;
     right: 20px;
     border: none;
     background-color:white;
@@ -58,7 +58,7 @@ p {
 
 .welcome {
     position: absolute;
-    top: 360px;
+    top: 372px;
     left: 18px;
     background-color: white;
     width: 81.7%;
