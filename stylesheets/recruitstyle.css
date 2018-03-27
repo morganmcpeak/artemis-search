@@ -20,6 +20,9 @@ p {
     color: #48186C;
     font-family: sans-serif;
 }
+.footer {
+    width: 105%;
+}
 .links {
     background-color: rgb(180, 180, 180);
     padding: 5px 10px;
