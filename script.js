@@ -27,7 +27,7 @@ $(document).ready(function(){
             if(company == "" || title == "" || fname == "" || fname == "" || lname == "" ||  address == "" || city == "" ||   state == "" ||  zip == "" ||  phone == "" || industry == "" ||   comments == "") {
                 alert("Please fill out all required fields.");
             } else {
-                $.post("contact-form.php", {
+                $.post("contact.php", {
                     company1: company,
                     title1: title,
                     fname1: fname,
