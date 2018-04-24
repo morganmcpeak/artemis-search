@@ -27,7 +27,7 @@
         }
         // Set the recipient email address.
         
-        $recipient = "joshua.klimaszewski@gmail.com";
+        $recipient = "info@artemissearchgroup.com";
 
         // Set the email subject.
         $subject = "New contact from $name";

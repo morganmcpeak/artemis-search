@@ -10,7 +10,7 @@
 h1 {
     font-family: "Roboto Slab";
     margin-bottom: 2px;
-
+    font-size: 30px;
 }
 p {
     font-family: sans-serif;
@@ -22,7 +22,6 @@ p {
     font-family: sans-serif;
 }
 .text {
-    background-color: rgb(180, 180, 180);
     padding: 5px 10px;
     width: 100%;
     margin-left: -10px;
@@ -30,16 +29,74 @@ p {
 .links {
     margin-bottom: 10px;
 }
+p {
+    font-weight: lighter;
+    margin-bottom: -10px;
+}
+.quote {
+    font-size: 20px;
+    font-family: "Roboto Slab";
+    color: #48186C;
+    margin-bottom: -30px;
+    font-weight: bold;
+}
+.translate {
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-style: italic;
+    color: #48186C;
+}
+.footer {
+    background-color: lightgray;
+    width: 100%;
+    height: 120px;
+    padding-top: 30px;
+    position: absolute;
+    top: 1250px;
+    left: 0;
+}
+#logo {
+    width: 180px;
+    height: auto;
+    margin: 0;
+    position: relative;
+    left: 50px;
+    top: -50px;
+}
+.socialicon {
+    position: relative;
+    top: -120px;
+    left: 10px;
+}
+@media screen and (min-width: 550px) {
+    #logo {
+        left: 220px;
+    }
+}
+@media screen and (min-width: 600px) {
+    #logo {
+        left: 300px;
+    }
+}
 
-
+@media screen and (min-width: 700px) {
+    #logo {
+        left: 400px;
+    }
+}
+@media screen and (min-width: 800px) {
+    #logo {
+        left: 500px;
+    }
+}
 @media screen and (min-width: 950px){
 
     .nav {
         width: 100.7%;
         margin: 0 auto;
-    }
-    .logo {
-        margin-left: 0px;
     }
 
     .img {
@@ -57,7 +114,12 @@ p {
         position: absolute;
         top: 300px;
     }
-
+    .footer {
+        top: 600px;
+    }
+    #logo {
+        left: 620px;
+    }
 }
 
 
@@ -65,11 +127,17 @@ p {
     .container {
         top: 325px;
     }
+    #logo {
+        left: 650px;
+    }
 }
 
 @media screen and (min-width: 1050px) {
     .container {
         top: 350px;
+    }
+    #logo {
+        left: 700px;
     }
 }
 
@@ -77,16 +145,25 @@ p {
     .container {
         top: 380px;
     }
+    #logo {
+        left: 750px;
+    }
 }
 
 @media screen and (min-width: 1150px){
     .container {
         top: 400px;
     }
+    #logo {
+        left: 800px;
+    }
 }
 @media screen and (min-width: 1200px){
     .container {
         top: 415px;
+    }
+    #logo {
+        left: 850px;
     }
 }
 
@@ -95,16 +172,25 @@ p {
     .container {
         top: 425px;
     }
+    #logo {
+        left: 900px;
+    }
 }
 
 @media screen and (min-width: 1300px){
     .container {
         top: 450px;
     }
+    #logo {
+        left: 950px;
+    }
 }
 @media screen and (min-width: 1350px){
     .container {
         top: 480px;
+    }
+    #logo {
+        left: 1000px;
     }
 }
 
@@ -112,20 +198,32 @@ p {
     .container {
         top: 500px;
     }
+    #logo {
+        left: 1050px;
+    }
 }
 @media screen and (min-width: 1450px){
     .container {
         top: 525px;
+    }
+    #logo {
+        left: 1100px;
     }
 }
 @media screen and (min-width: 1500px) {
     .container {
         top: 550px;
     }
+    #logo {
+        left: 1150px;
+    }
 }
 @media screen and (min-width: 1550px) {
     .container {
         top: 575px;
+    }
+    #logo {
+        left: 1200px;
     }
 }
 @media screen and (min-height: 1000px) {
@@ -138,16 +236,36 @@ p {
     .joblink {
         font-size: 20px;
     }
+    .footer {
+        top: 950px;
+    }
 }
-@media screen and (min-height: 1030px) {
+@media screen and (min-height: 1000px) {
     h1 {
         font-size: 40px;
     }
-    p {
+    /* p {
         font-size: 30px;
-    }
+    } */
     .joblink {
         font-size: 30px;
     }
+    .footer {
+        top: 1350px;
+    }
+    .translate {
+        font-size: 25px;
+    }
+    .quote {
+        font-size: 30px;
+    }
 
+}
+@media screen and (min-height: 1300px) {
+    .footer {
+        top: 1050px;
+    }
+    .bodycopy {
+        font-size: 22px;
+    }
 }

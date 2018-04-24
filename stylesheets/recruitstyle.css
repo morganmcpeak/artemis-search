@@ -9,7 +9,7 @@
 }
 h1 {
     font-family: "Roboto Slab";
-    margin-bottom: 2px;
+    margin-bottom: 10px;
 }
 p {
     font-family: sans-serif;
@@ -20,18 +20,83 @@ p {
     color: #48186C;
     font-family: sans-serif;
 }
-.footer {
-    width: 105%;
-}
+
 .links {
     background-color: rgb(180, 180, 180);
     padding: 5px 10px;
     margin-left: -10px;
     width: 100%;
 }
-.socialicons {
-    margin-top: 10px;
+
+.recruitlist {
+    text-align: left;
+    list-style-type: circle;
 }
+.recruithead {
+    font-size: 20px;
+    font-family: "Roboto Slab";
+    color: #48186C;
+    margin-top: -5px;
+    margin-bottom: -10px;
+    margin-left: 5px;
+
+}
+
+.bulletlist {
+    text-align: left;
+    display: block;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-style: italic;
+    list-style-type: circle;
+    font-size: 14px;
+}
+
+.box {
+    width: 100%;
+}
+.recruitp {
+    font-weight: normal;
+    font-size: 18px;
+}
+.footer {
+    position: absolute;
+}
+.socialicon {
+    position: relative;
+    top: -105px;
+}
+#logo {
+    width: 180px;
+    height: auto;
+    position: relative;
+    left: 50px;
+    top: -40px;
+}
+@media screen and (min-width: 600px) {
+    #logo{
+        left: 250px;
+    }
+}
+@media screen and (min-width: 700px) {
+    #logo{
+        left: 350px;
+    }
+}
+@media screen and (min-width: 800px) {
+    #logo{
+        left: 450px;
+    }
+}
+@media screen and (min-width: 900px) {
+    #logo{
+        left: 550px;
+    }
+}
+
 @media screen and (min-width: 950px){
 
     .nav{
@@ -65,26 +130,41 @@ p {
         position: absolute;
         top: 300px;
     }
+    .bulletlist {
+        float: none;
+        margin-top: -20px;
+        margin-bottom: -10px;
+    }
 }
 @media screen and (min-width: 1000px){
     .container {
         top: 325px;
+    }
+    #logo {
+        left: 650px;
     }
 }
 @media screen and (min-width: 1050px){
     .container {
         top: 350px;
     }
+
 }
 
 @media screen and (min-width: 1100px){
     .container {
         top: 375px;
     }
+    #logo {
+        left: 750px;
+    }
 }
 @media screen and (min-width: 1200px){
     .container {
         top: 400px;
+    }
+    #logo {
+        left: 850px;
     }
 }
 
@@ -96,6 +176,9 @@ p {
 @media screen and (min-width: 1300px){
     .container {
         top: 450px;
+    }
+    #logo {
+        left: 950px;
     }
 }
 
@@ -109,6 +192,9 @@ p {
     .container {
         top: 525px;
     }
+    #logo {
+        left: 1050px;
+    }
 }
 
 @media screen and (min-width: 1450px){
@@ -120,6 +206,9 @@ p {
     .container {
         top: 550px;
     }
+    #logo {
+        left: 1150px;
+    }
 }
 @media screen and (min-width: 1550px){
     .container {
@@ -129,6 +218,9 @@ p {
 @media screen and (min-width: 1600px) {
     .container {
         top: 600px;
+    }
+    #logo {
+        left: 1250px;
     }
 }
 @media screen and (min-height: 1000px) {
@@ -140,6 +232,9 @@ p {
     }
     .joblink {
         font-size: 20px;
+    }
+    .bulletlist {
+        font-size: 18px;
     }
 }
 @media screen and (min-height: 1030px) {

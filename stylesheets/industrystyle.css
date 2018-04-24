@@ -52,27 +52,40 @@ p {
     text-align: center;
     margin-top: 10px;
 }
-.socialicon {
-    position: relative;
-    bottom: -25px;
-    left: 20px;
-}
+
 .footer {
-    background-color: rgb(180, 180, 180);
-    height: 100px;
+    background-color: lightgray;
+    width: 100%;
+    height: 120px;
+    padding-top: 30px;
     position: absolute;
-    top: 3800px;
-    left: -10px;
-    width: 105%;
+    top: 3550px;
+    left: 0;
 }
-.footlogo {
-    position: relative;
-    bottom: 40px;
-    right: 30px;
+#logo {
     width: 180px;
     height: auto;
-    float: right;
+    margin: 0;
+    position: relative;
+    left: 50px;
+    top: -50px;
 }
+.socialicon {
+    position: relative;
+    top: -120px;
+    left: 10px;
+}
+@media screen and (min-width: 550px) {
+    #logo {
+        left: 220px;
+    }
+}
+@media screen and (min-width: 700px) {
+    #logo {
+        left: 400px;
+    }
+}
+
 @media screen and (min-width: 950px){
     .nav {
         width: 100.7%;
@@ -80,9 +93,6 @@ p {
     }
     .logo {
         margin-left: 0px;
-    }
-    .footlogo {
-        right: 90px;
     }
 
     .img {
@@ -111,20 +121,28 @@ p {
     }
     .industrycopy {
         text-align: left;
+        font-size: 20px;
+        margin-top: 0px;
     }
     .footer {
         top: 1900px;
+        left: -8px;
     }
+
     .paragraph {
         width: 500px;
         height: 250px;
         float: right;
         margin-top: -200px;
+        font-size: 20px;
+        font-weight: lighter;
     }
     .industry {
         height: 300px;
     }
-
+#logo {
+    left: 500px;
+}
 }
 
 
@@ -132,11 +150,17 @@ p {
     .container {
         top: 350px;
     }
+    #logo {
+        left: 650px;
+    }
 }
 
 @media screen and (min-width: 1050px) {
     .container {
         top: 375px;
+    }
+    #logo {
+        left: 700px;
     }
 }
 
@@ -144,16 +168,25 @@ p {
     .container {
         top: 380px;
     }
+    #logo {
+        left: 750px;
+    }
 }
 
 @media screen and (min-width: 1150px){
     .container {
         top: 410px;
     }
+    #logo {
+        left: 800px;
+    }
 }
 @media screen and (min-width: 1200px){
     .container {
         top: 425px;
+    }
+    #logo {
+        left: 850px;
     }
 }
 
@@ -162,16 +195,25 @@ p {
     .container {
         top: 425px;
     }
+    #logo {
+        left: 900px;
+    }
 }
 
 @media screen and (min-width: 1300px){
     .container {
         top: 480px;
     }
+    #logo {
+        left: 950px;
+    }
 }
 @media screen and (min-width: 1350px){
     .container {
         top: 480px;
+    }
+    #logo {
+        left: 1000px;
     }
 }
 
@@ -179,14 +221,42 @@ p {
     .container {
         top: 500px;
     }
+    #logo {
+        left: 10500px;
+    }
 }
 @media screen and (min-width: 1500px) {
     .container {
         top: 560px;
     }
+    #logo {
+        left: 1100px;
+    }
 }
 @media screen and (min-width: 1550px) {
     .container {
         top: 600px;
+    }
+    #logo {
+        left: 1150px;
+    }
+}
+@media screen and (min-height: 950px) {
+    .picture {
+        width: 100%;
+    }
+    .industrycopy{
+        font-size: 20px;
+    }
+    .footer {
+        top: 3650px;
+    }
+}
+@media screen and (min-height: 1300px){
+    .footer {
+        top: 1900px;
+    }
+    .socialicon {
+        left: 30px;
     }
 }
